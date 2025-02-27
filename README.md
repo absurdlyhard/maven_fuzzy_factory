@@ -15,8 +15,8 @@ The **Maven Fuzzy Factory** database consists of multiple interconnected tables 
 
 ## Files in the Repository
 - `Project_1.sql`: Contains SQL queries that analyze key sales metrics and customer behavior.
-- `Project_2.sql`: Includes advanced queries to derive insights on revenue trends, and product performance.
-- `create_database.sql`: A script to create the database, optimized with hints for faster execution.
+- `Project_2.sql`: Includes advanced queries to derive insights on revenue trends and product performance.
+- `create_database.sql`: The database creation script is too large for GitHub. You can download it from [this link](https://drive.google.com/file/d/1l0mOucaI-bKIIQ16Cg-OgTP0NjSYXnsx/view?usp=drive_link).
 
 ## Performance Optimization Hints
 To efficiently create and run queries on the **mavenfuzzyfactory** database, use the following settings to prepare the workbench on your machine:
@@ -35,10 +35,11 @@ SET GLOBAL interactive_timeout=28800;
 
 ## Objective of the Analysis
 This project aims to:
-- Understand website traffic patterns and conversion rates.
-- Analyze revenue trends and customer purchasing behavior.
-- Identify high-performing products and refund trends.
-- Optimize marketing efforts based on session data.
+- **Understand website traffic patterns and conversion rates**: By analyzing session data, we can determine which marketing sources drive the most engaged users and the impact of different traffic sources on sales.
+- **Analyze revenue trends and customer purchasing behavior**: The project examines order trends over time, including peak sales periods, average order values, and repeat customer behavior.
+- **Identify high-performing products and refund trends**: We analyze product sales, customer preferences, and which products tend to have higher refund rates, helping optimize inventory and improve customer satisfaction.
+- **Optimize marketing efforts based on session data**: By tracking UTM parameters and referrer data, we can identify the best-performing campaigns and devices used by customers, leading to better allocation of marketing budgets.
+- **Evaluate the relationship between order items and refunds**: Understanding refund trends helps in identifying potential product or service issues and improving overall e-commerce operations.
 
 ## How to Use
 1. Clone the repository and set up the **Maven Fuzzy Factory** database.
@@ -47,4 +48,3 @@ This project aims to:
 
 ---
 This repository serves as a valuable resource for advanced e-commerce data analysis using SQL. Contributions and discussions are welcome!
-
